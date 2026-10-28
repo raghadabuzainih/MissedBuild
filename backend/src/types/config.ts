@@ -4,5 +4,11 @@ export type Config = {
   };
   db: {
     url: string;
-  }
+  },
+  meta: {
+    apiKey: string,
+  },
+  github: {
+    token: string,
+  },
 };
