@@ -1,0 +1,21 @@
+[
+  { "id": "education", "name": "Education", "icon": "school" },
+  { "id": "healthcare", "name": "Healthcare", "icon": "health" },
+  { "id": "ecommerce", "name": "E-commerce", "icon": "cart" },
+  { "id": "transport", "name": "Transportation", "icon": "bus" },
+  { "id": "finance", "name": "Finance", "icon": "wallet" },
+  { "id": "agriculture", "name": "Agriculture", "icon": "sprout" },
+  { "id": "productivity", "name": "Productivity", "icon": "checklist" },
+  { "id": "developer-tools", "name": "Developer Tools", "icon": "code" },
+  { "id": "artificial-intelligence", "name": "Artificial Intelligence", "icon": "sparkle" },
+  { "id": "cybersecurity", "name": "Cybersecurity", "icon": "shield" },
+  { "id": "environment", "name": "Environment", "icon": "leaf" },
+  { "id": "social", "name": "Social Platforms", "icon": "people" },
+  { "id": "entertainment", "name": "Entertainment", "icon": "movie" },
+  { "id": "communication", "name": "Communication", "icon": "chat" },
+  { "id": "logistics", "name": "Logistics", "icon": "truck" },
+  { "id": "real-estate", "name": "Real Estate", "icon": "home" },
+  { "id": "tourism", "name": "Tourism", "icon": "flight" },
+  { "id": "government", "name": "Government Services", "icon": "institution" },
+  { "id": "other", "name": "Other", "icon": "tag" }
+]
