@@ -20,7 +20,7 @@ const STEPS: { icon: ReactElement; title: string; text: string }[] = [
   {
     icon: <TagIcon />,
     title: "Results are sorted by domain",
-    text: "Each repository is placed in a category such as Education, Healthcare or Developer Tools, so you can filter the results. If a project doesn't clearly fit, it's labeled Other instead of being guessed.",
+    text: "Each repository is assigned to a category, such as Education, Healthcare, Developer Tools, and more, so you can easily filter the results. If a project doesn't clearly fit any category, it's labeled Other instead of being guessed.",
   },
   {
     icon: <DocumentIcon />,

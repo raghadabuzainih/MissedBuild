@@ -29,11 +29,10 @@ import { theme } from "./theme";
 const NAV_LINKS = [
   { id: "search", label: "Start searching" },
   { id: "about", label: "About" },
-  { id: "how-it-works", label: "How it works" },
-  { id: "categories", label: "Categories" },
-  { id: "what-you-get", label: "What you'll get" },
   { id: "who-its-for", label: "Who it's for" },
-  { id: "good-to-know", label: "Good to know" },
+  { id: "how-it-works", label: "How it works" },
+  { id: "what-you-get", label: "What you'll get" },
+  { id: "categories", label: "Categories" },
 ];
 
 function App() {

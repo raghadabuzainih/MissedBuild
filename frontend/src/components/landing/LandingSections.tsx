@@ -8,7 +8,6 @@ import AboutSection from "./AboutSection";
 import AnalysisPreview from "./AnalysisPreview";
 import Audience from "./Audience";
 import CategoriesSection from "./CategoriesSection";
-import Faq from "./Faq";
 import HowItWorks from "./HowItWorks";
 import type { LandingTone } from "./LandingSection";
 import WhyExplore from "./WhyExplore";
@@ -32,12 +31,11 @@ export default function LandingSections({ onExample, onStart, categories, onSele
   return (
     <>
       <AboutSection />
-      <HowItWorks />
-      {showCategories && <CategoriesSection categories={categories} tone="paper" onSelect={onSelectCategory} />}
-      <AnalysisPreview tone={tone("paper")} />
       <Audience onExample={onExample} tone={tone("default")} />
+      <HowItWorks />
+      <AnalysisPreview tone={tone("paper")} />
       <WhyExplore tone={tone("paper")} />
-      <Faq tone={tone("default")} />
+      {showCategories && <CategoriesSection categories={categories} tone="paper" onSelect={onSelectCategory} />}
 
       <Box
         component="section"
@@ -57,7 +55,7 @@ export default function LandingSections({ onExample, onStart, categories, onSele
               variant="h2"
               sx={{ fontSize: "clamp(1.8rem, 2.5vw + 1rem, 2.8rem)", fontWeight: 800, letterSpacing: "-0.01em", mb: 2 }}
             >
-              Have an idea? Start with one sentence.
+              Have an idea?
             </Typography>
             <Typography variant="h6" component="p" color="text.secondary" sx={{ fontWeight: 400, mb: 4 }}>
               You don't need a full plan, just a direction. See what already exists, then decide what to build.
